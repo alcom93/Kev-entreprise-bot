@@ -1,0 +1,17 @@
+{
+  "name": "kev-entreprise-bot",
+  "version": "1.0.0",
+  "description": "Bot de configuration du serveur Discord KEV ENTREPRISE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
